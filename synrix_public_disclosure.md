@@ -12,6 +12,8 @@ Synrix is a self-evolving, temporal knowledge graph operating system (KG-OS) des
 
 This system is purpose-built for continuous learning, agent autonomy, and consent-aware memory governance in constrained, real-world environments. It is capable of dynamic graph mutation, compression, and symbolic reflection without reliance on centralized training cycles or cloud-bound dependencies.
 
+Synrix is platform-agnostic and designed to scale from edge inference to datacenter-level orchestration.
+
 ---
 
 ## Core Innovations
@@ -31,7 +33,7 @@ This system is purpose-built for continuous learning, agent autonomy, and consen
 ### 3. **TimeFold: Semantic Compression Engine**
 
 - Multi-layered compression engine using differential snapshotting, reversible symbol tables, and temporal folding.
-- Optimized for Jetson-class edge hardware: <4GB memory footprint with full symbolic fidelity.
+- Optimized for deployment across constrained and high-performance environments alike — from edge devices to distributed compute clusters.
 - Seamlessly integrates with SEG and ChronoNode architectures.
 
 ### 4. **Self-Evolving DAG Engine**
@@ -48,7 +50,7 @@ This system is purpose-built for continuous learning, agent autonomy, and consen
 
 ### 6. **Edge-Optimized Runtime (Jetson Orin Nano Class)**
 
-- All systems are deployable on constrained 8GB edge boards without cloud dependency.
+- All components are deployable across heterogeneous compute environments, including low-power devices and high-throughput clusters, without requiring cloud dependency.
 - Integrated TensorRT-LLM stack for quantized inference (e.g. DeepSeek-Coder 1.3B INT8).
 - Multi-agent mesh can operate cooperatively across local knowledge graph partitions.
 
@@ -69,7 +71,7 @@ This system is purpose-built for continuous learning, agent autonomy, and consen
              ↓                        ↓
          LLM Runtime           Edge Scheduler
              ↓                        ↓
-       Jetson Orin SoC         Knowledge Shard Mesh
+Device Runtime (Edge or Cluster) → Knowledge Shard Mesh        
 ```
 
 ---
