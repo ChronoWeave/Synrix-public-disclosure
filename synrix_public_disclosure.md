@@ -106,5 +106,5 @@ The innovations disclosed herein were independently developed by Ryan Frederick 
 
 ---
 
-> **Contact:** [chronoweave.dev@gmail.com](mailto\:chronoweave.dev@gmail.com)
+> **Contact:** [synrix.dev@gmail.com](mailto\:synrix.dev@gmail.com)
 
