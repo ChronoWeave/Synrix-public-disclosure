@@ -60,7 +60,7 @@ Synrix is platform-agnostic and designed to scale from edge inference to datacen
 
 ```
  ┌──────────────────────────────────────────────────────┐
- │                   Synrix Kernel                     │
+ │                   Synrix Kernel                      │
  ├──────────────────────────────────────────────────────┤
  │ ChronoCube  |  DAG Engine  |  TimeFold  |  SEG Layer │
  └──────────────────────────────────────────────────────┘
