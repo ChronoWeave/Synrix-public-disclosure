@@ -2,8 +2,8 @@
 
 ## Executive White Paper
 
-**Version**: 1.0  
-**Date**: January 2025  
+**Version**: 1.1  
+**Date**: August 2025  
 **Authors**: Synrix Research Team  
 **Classification**: Research Contribution - Cognitive Work Unit Framework  
 **Target Audience**: AI Researchers, Academic Institutions, Industry Partners  
@@ -91,7 +91,7 @@ The system's reasoning is powered by:
 - **Resource Management**: Predictive resource allocation and dynamic optimization
 - **CPU Efficiency**: 3-5% CPU usage vs 100% for token-based systems
 
-### 2.4 Advanced Compression Technology
+### 2.4 Compression & Packaging (Edge‑Ready)
 
 Synrix incorporates advanced compression technology that enables significant scale improvements while maintaining real-time performance. This compression system represents an important advancement in knowledge graph storage and retrieval.
 
@@ -104,7 +104,7 @@ The system implements a sophisticated multi-layer compression pipeline that achi
 - **Graph Optimization**: Relationship optimization and intelligent deduplication
 - **Semantic Deduplication**: Storage savings through semantic similarity detection
 
-#### 2.4.2 Hybrid Storage Architecture
+#### 2.4.2 Runtime Storage Notes
 
 The system implements a hybrid storage architecture that intelligently manages data placement:
 
@@ -113,16 +113,8 @@ The system implements a hybrid storage architecture that intelligently manages d
 - **Dynamic Data Movement**: Automatic migration between storage tiers based on access patterns
 - **Background Optimization**: Continuous memory management and compression optimization
 
-#### 2.4.3 Performance Impact
-
-The compression technology enables significant scale improvements while maintaining performance:
-
-| **Metric** | **Without Compression** | **With Compression** | **Improvement** |
-|------------|------------------------|---------------------|-----------------|
-| **Storage Capacity** | 10K-50K concepts | 100K-1M+ concepts | **10-20x increase** |
-| **Domain Coverage** | 10-20 domains | 50-100+ domains | **5x expansion** |
-| **Relationship Density** | 5 relationships/concept | 10+ relationships/concept | **2x density** |
-| **Response Time** | <100ms | <100ms | **Maintained** |
+#### 2.4.3 Observed Impact (Representative)
+On a Jetson Orin Nano, Python API hot-cache load (8×5×25): ~172 rps, avg ~44 ms, p95 ~61 ms; cold-cache: ~156 rps, avg ~48 ms, p95 ~71 ms.
 
 #### 2.4.4 Integration with Existing Systems
 
@@ -527,7 +519,6 @@ Synrix demonstrates the viability of a transparent, graph-based AI system with r
 The CWU framework and advanced compression technology represent significant contributions to the AI research community by:
 
 1. **Addressing a Critical Gap**: Providing transparent, verifiable performance metrics for AI systems
-
 2. **Enabling Meaningful Comparisons**: Creating a framework for comparing different AI approaches
 3. **Supporting Trustworthy AI**: Contributing to the development of explainable and auditable AI systems
 4. **Advancing Graph-Based AI**: Demonstrating the viability of persistent, graph-based reasoning systems
@@ -559,6 +550,4 @@ The Synrix system and CWU framework represent a step toward more transparent, me
 
 *This white paper is proprietary and confidential. All rights reserved.*
 
-*For research collaboration, licensing inquiries, or technical questions, please contact the Synrix Research Team*
-
-synrix.dev@gmail.com
+*For research collaboration, licensing inquiries, or technical questions, please contact the Synrix Research Team.* 
